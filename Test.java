@@ -2,9 +2,9 @@ public class Test {
 	private String field;
 	
 	public void testing() {
-		getField().toUpperCase();
-		getField().toLowerCase();
-		getField().trimg();
+		field.toUpperCase();
+		field.toLowerCase();
+		field.trim();
 	}
 	
 	public String getField() {
