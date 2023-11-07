@@ -1,14 +1,11 @@
 public class Test {
-	private String field;
 	
-	public void testing() {
-		getField().toUpperCase();
-		getField().toLowerCase();
-		getField().trim();
+	public void printOne(String s) {
+		this.printTwo(s, 15);
 	}
 	
-	public String getField() {
-		return field;
+	public void printTwo(String s, int i) {
+		System.out.println(s);
+		System.out.println(i);
 	}
-	
 }
