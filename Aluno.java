@@ -2,6 +2,10 @@ public class Aluno {
 	
 	private String nome;
 	
+	public void imprimirNomes() {
+		System.out.println(this.getNome());
+	}
+	
 	public String getNome() {
 		return this.nome;
 	}
@@ -10,7 +14,5 @@ public class Aluno {
 		this.nome = nome;
 	}
 	
-	public void imprimirNome() {
-		System.out.println(this.getNome());
-	}
+	
 }
