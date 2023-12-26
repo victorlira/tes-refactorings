@@ -1,8 +1,16 @@
 public class Aluno {
 	
-	public String nome;
+	private String nome;
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 	
 	public void imprimirNome() {
-		System.out.println(this.nome);
+		System.out.println(this.getNome());
 	}
 }
