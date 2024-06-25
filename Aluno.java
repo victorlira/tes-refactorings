@@ -1,4 +1,4 @@
-public class Aluno {
+public class AlunoRenamed {
 	
 	private String nome;
 	
