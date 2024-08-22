@@ -1,5 +1,6 @@
 public class Sphere {
 
+    private static final double PI = 3.14159;
     private double mass;
     private double radius;
     private double volume;
@@ -11,8 +12,7 @@ public class Sphere {
     }
 
     public void calculateInfo() {
-        volume = (4.0 / 3.0) * 3.14159 * Math.pow(radius, 3);
-        density = mass / volume;;
+        volume = (4.0 / 3.0) * PI * Math.pow(radius, 3);
     }
 
     public double getMass() {
