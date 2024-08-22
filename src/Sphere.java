@@ -13,6 +13,7 @@ public class Sphere {
 
     public void calculateInfo() {
         volume = (4.0 / 3.0) * PI * Math.pow(radius, 3);
+        density = mass / volume;;
     }
 
     public double getMass() {
